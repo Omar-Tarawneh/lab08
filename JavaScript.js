@@ -2,7 +2,7 @@ let getPet = function(){
     petKind = prompt("Please Enter the pet you want: cat, dog or bird:");
     let pet = '';
 
-    while (petKind !== 'cat' && petKind !== 'dog' && petKind == 'bird'){
+    while (petKind !== 'cat' && petKind !== 'dog' && petKind !== 'bird'){
         petKind = prompt("Please Enter one of the three kind cat, dog, or bird :");
     }
 
