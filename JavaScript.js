@@ -7,7 +7,7 @@ let getPet = function(){
     }
 
     if (petKind === 'cat'){
-        pet = '<img src="/images/cat.png" />';
+        pet = '<img src="images/cat.png" />';
     }else if (petKind === 'dog'){
         pet = '<img src="images/dog.png" />';
     }else if (petKind === 'bird'){
